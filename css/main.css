@@ -44,7 +44,7 @@
   background-color: none;
   padding: 8px 15px;
   font-size: 21px;
-  /* display: none; */
+  display: none;
 }
 
 #resultBtn:hover{
@@ -227,7 +227,14 @@
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+  .HeroText{
+    font-size: 2.8rem;
+  }
+  #resultBtn{
+    display: block;
+  }
 }
+
 .footer-social {
   margin-right: -5px;
 }
