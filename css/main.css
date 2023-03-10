@@ -74,6 +74,9 @@
   font-size: 35px;
   text-align: start !important;
 }
+.schoolName{
+  color: #022561 !important;
+}
 .boardCardBody{
   background-color: #022561;
   padding: 5px 3px;
@@ -370,7 +373,9 @@ footer .footer-nav li a:hover {
   -o-box-shadow: 0 0 10px rgba(0,0,0,.2);
   box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
-
+.PwriteUps{
+  color: #000;
+}
 
 
 
@@ -1389,7 +1394,7 @@ td, th {
   
 }
 .sppb-btn i.fa {
-  background: #222454;
+  background: #022561;
 }
 .fa-long-arrow-right:before {
   content: "\f178";
@@ -1428,11 +1433,11 @@ td, th {
 }
  .sppb-btn {
   background: #fff;
-  color: #000;
+  color: #022561;
   position: relative;
 }
 .sppb-btn:hover {
-  background: #222454;
+  background: #022561;
   color: white;
   position: relative;
 }
