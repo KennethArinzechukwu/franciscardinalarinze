@@ -20,12 +20,13 @@
 }
 
 .HeroText{
-
   z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;                                               
   transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center !important;
 }
 .hero1{
   width: 100%;
@@ -104,6 +105,12 @@ font-family: sans-serif;
 .cardPrincipal{
 box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
 }
+.gallaryDiv{
+  width: 100%;
+  background-color: #022561;
+}
+
+
 
 
 .footerLinks :hover{
@@ -237,6 +244,102 @@ box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
 .footer-info h3{
   color: #fff !important;
 }
+
+
+
+
+@media only screen and (max-width: 1916px) and (min-width: 1225px) { 
+   .logoImg{
+    height: 10vh;
+   }
+   .carouselSlide{
+    height: 80vh;
+   }
+}
+
+@media only screen and (max-width: 2704px) and (min-width: 1916px) { 
+   .navLarge{
+    height: 23vh !important;
+   }
+   .logoImg{
+    height: 8vh;
+   }
+   .stck nav ul {
+     margin-left: 35rem;
+   }
+   .sldtop{
+    margin-top: 10vh;
+   }
+   .carouselSlide{
+    height: 80vh;
+   }
+}
+@media (max-width: 1218px) { 
+  .navLarge{
+    height: 15vh !important;
+    padding: 0 2px;
+  }
+  .logoImg{
+    height: 8vh;
+   }
+}
+
+@media (max-width: 1187px) { 
+  .Hero1{
+   font-size: 2rem;
+  }
+  .Hero2{
+   font-size: 20px;
+   text-align: center;
+  }
+}
+
+
+@media  (max-width: 1024px) { 
+  .navLarge{
+    height: 13vh !important;
+   }
+  .hero1{
+    font-size: 45px;
+  }
+  #resultBtn{
+  display: block;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .Hero2{
+    font-size: 15px;
+  }
+  .HeroText{
+    width: 100%;
+  }
+  .schoolName{
+    text-align: center !important;
+    font-size: 3rem;
+  }
+}
+@media  (max-width: 624px) { 
+  .hero1{
+    font-size: 45px;
+  }
+  .Hero2{
+    font-size: 15px;
+  }
+  .HeroText{
+    width: 100%;
+  }
+  .schoolName{
+    text-align: center !important;
+    font-size: 3rem;
+  }
+}
+
+
+
+
+
 @media (max-width: 575px) {                             
   
   #footer .footer-top .footer-info {
@@ -247,6 +350,7 @@ box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
   }
   #resultBtn{
     display: block;
+    top: 70%;
   }
 }
 
@@ -448,7 +552,7 @@ ol, ul {
 }
 
 .lgo  {
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 select {
