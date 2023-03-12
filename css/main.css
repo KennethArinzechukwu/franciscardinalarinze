@@ -20,17 +20,26 @@
 }
 
 .HeroText{
-  text-align: center;
-  color: #fff !important;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 7rem;
+
   z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;                                               
   transform: translate(-50%, -50%);
+}
+.hero1{
   width: 100%;
+  font-size: 8rem;
+  text-align: center;
+  color: #fff !important;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.Hero2{
+font-size: 3rem;
+color: #fff;
+font-family: sans-serif;
 }
 
 #resultBtn{
@@ -63,7 +72,7 @@
 }
 .academic{
   padding: 2px;
- margin-bottom: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,6 +100,9 @@
 }
 #principalSect{
   background-color: #d8d4d4;
+}
+.cardPrincipal{
+box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
 }
 
 
@@ -921,17 +933,9 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 
-.section-full {
-  /* color: white; */
-}
-
 .section-full h6  {  
   color: white !important;
 }
-
-/* .section-full p  {  
-  color: rgb(187, 186, 189) !important;
-} */
 
 .section-half {
   padding: 75px 0;
@@ -2518,11 +2522,13 @@ table.MsoTableGrid {
 @media (min-width: 992px) and (max-width: 1200px) {
   .studio-content {
     margin-bottom: 30px;
+    text-align: center;
   }
 
   .studio-content img {
     margin: 0;
     padding-top: 60px;
+    align-items: center;
   }
   .acadPricipalRow{
     padding: 0 0;
@@ -2533,12 +2539,13 @@ table.MsoTableGrid {
 
   .studio-content {
     width: 100%;
+    text-align: center;
   }
 
   .studio-content img {
     margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
     padding-bottom: 30px;
   }
 }
@@ -2547,6 +2554,7 @@ table.MsoTableGrid {
   .studio-content img {
     margin-top: 30px;
     margin-bottom: 20px;
+    align-items: center;
   }
 
   table.MsoTableGrid {
