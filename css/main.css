@@ -335,6 +335,15 @@ box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
     font-size: 3rem;
   }
 }
+@media (max-width: 367px) { 
+  /* .acadPricipalRow{
+    display: flex;
+    justify-content: space-between;
+  } */
+
+}
+
+
 
 
 
@@ -2660,6 +2669,11 @@ table.MsoTableGrid {
     margin-bottom: 20px;
     align-items: center;
   }
+
+  /* .studio-content a{
+    display: grid;
+    place-items: center;
+  } */
 
   table.MsoTableGrid {
     width: 80%;

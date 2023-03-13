@@ -117,7 +117,8 @@ ul, ol {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url('../images/count_bkgd.jpg');
+    background-image: linear-gradient(to right,rgba(0, 48, 116, 0.9),
+    rgba(0, 34, 103, 0.9)), url('/images/fineSchoolFront.PNG');
 }
 
 .bg-img .overlay {
