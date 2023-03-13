@@ -10,7 +10,7 @@
   height: 15vh;
 }
 .navBtn{
-  background-color: yellow !important;
+  background-color: #d5d209 !important;
   color: #022561 !important;                                
   font-weight: bold;
 }
@@ -132,7 +132,7 @@ box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
   background: #05101e;
-  border-top: 4px solid yellow;
+  border-top: 4px solid #d5d209;
   text-align: center;
   padding: 30px 20px;
 }
