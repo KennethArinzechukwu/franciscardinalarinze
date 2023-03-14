@@ -478,7 +478,7 @@ footer .footer-nav li a:hover {
   bottom: 100px;
   right: 0;
   border-image-width: 50%; 
-  z-index: 1; 
+  z-index: 3; 
 }
 ::placeholder{
   color: black;
