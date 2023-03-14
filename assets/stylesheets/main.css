@@ -2682,9 +2682,10 @@ footer .blu-lyr {
   font-size: 54px;
   letter-spacing: -.2px;
   font-weight: 800;
-  margin: 20px 0 0;
+  margin: 40px 0 0;
 }
 .blk-lyr .pg-tp > h1 {color: #fff;}
+
 /*===== Pagination =====*/
 .pgn-wrp {
   float: left;

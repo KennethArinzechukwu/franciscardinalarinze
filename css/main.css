@@ -560,10 +560,6 @@ ol, ul {
   list-style: none;
 }
 
-.lgo  {
-  /* padding-left: 50px; */
-}
-
 select {
   display: block;
 }
@@ -2470,8 +2466,8 @@ footer .footer-nav li a:hover {
 }
 
 .facilityMargin   {  
-  margin-top: 40px;
-  margin-bottom:20px;
+  /* margin-top: 40px;
+  margin-bottom:20px; */
 }
 
 .facilityMarginX   {  
@@ -2480,6 +2476,12 @@ footer .footer-nav li a:hover {
 
 input[type='email']::placeholder {
   color: gray;
+}
+
+@media (min-width: 1026px) and (max-width: 1029.33px) {
+   .logoRem{
+    display: none !important;                          
+   }
 }
 
 @media (max-width: 768px) {
@@ -2777,9 +2779,6 @@ table.MsoTableGrid {
 }
 
 @media (max-width: 1024px) {
-  .facilityMargin {
-    margin: 0;
-  }
 
   .facilityMarginX {
     margin: 0;
