@@ -120,7 +120,43 @@ section{
   width: 100%;
 }
 
+
+input[type='email']::placeholder {
+  color: gray;
 }
+
+
+
+@media (min-width: 1330px) and (max-width: 1382px) {
+  .logoRem{
+    display: none !important;                          
+   }
+}
+@media (max-width: 1383px) {
+  .logoRemov{
+    display: none !important;                          
+   }
+}
+
+@media (min-width: 1120.50px) and (max-width: 1143.70px) {
+  .logoRem{
+    display: none !important;                          
+   }
+}
+
+@media (min-width: 1023.70px) and (max-width: 1120.50px) {
+   .logoRem{
+    display: none !important;                          
+   }
+}
+@media (max-width: 1024.44px) {
+  .logoRem{
+    display: none !important;                          
+   }
+}
+
+
+
 .sec-bx {
   margin: 0 auto;
   max-width: 1300px;

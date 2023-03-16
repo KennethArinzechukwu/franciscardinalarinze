@@ -2193,9 +2193,6 @@ td, th {
   content: "";
   right: 0;
   top: 0;
-  /* width: 463px;
-  height: 600px;
-  background: url(../assets/images/abt1.jpg) no-repeat center center/cover;   */
   margin: 90px;
    z-index: 1;
 }
@@ -2682,8 +2679,6 @@ table.MsoTableGrid {
 
   .studio-content img {
     margin-top: 30px;
-    /* margin-left: 10%;
-    margin-right: 10%; */
     padding-bottom: 30px;
   }
 }
@@ -2694,11 +2689,6 @@ table.MsoTableGrid {
     margin-bottom: 20px;
     align-items: center;
   }
-
-  /* .studio-content a{
-    display: grid;
-    place-items: center;
-  } */
 
   table.MsoTableGrid {
     width: 80%;
