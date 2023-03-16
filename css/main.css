@@ -283,6 +283,9 @@ box-shadow: 9px 9px 9px 9px rgba(83, 83, 151, 0.3);
     height: 8vh;
    }
 }
+.navZ{
+  z-index: 2;
+}
 
 @media (max-width: 1187px) { 
   .Hero1{
